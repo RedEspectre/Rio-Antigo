@@ -1,22 +1,16 @@
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
+*{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto, sans-serif;
-    
-}
 
+}
 
 
 .cabecalho {
     
     background-color: rgb(113, 133, 151);
     padding: 10px 0;
-
     width: 960px;
 }
 
@@ -50,7 +44,50 @@
     margin-right: 15px;
 }
 
+
 .hmenu ul li a:hover {
     color: rgb(224, 134, 30);
     border-bottom: 1px solid rgb(224, 134, 30);
 }
+
+
+
+.titulo_principal {
+    font-family: 'Arima', cursive;
+    color: rgb(10, 85, 151);
+    margin: 20px 0;
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-size: 36px;
+    border-bottom: 1px solid rgb(10, 85, 151);
+}
+
+.cabecalho_secao {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    margin: 0 0 10px;
+}
+
+.titulo_curiosidade {
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+    font-size: .8rem;
+}
+
+.conteudo_secao {
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+.conteudo_secao p {
+    padding: 5px 0 5px 0;
+    text-align: justify;
+}
+
+.conteudo_principal, .rodape_principal{
+    width: 940px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
