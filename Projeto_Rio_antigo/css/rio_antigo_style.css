@@ -3,13 +3,14 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 
 
 .cabecalho {
     
-    background-color: rgb(113, 133, 151);
+    background-color: black;
     padding: 10px 0;
     width: 960px;
 }
@@ -28,6 +29,7 @@
     position: absolute;
     top: 50px;
     right: 0;
+    font-size: 24px;
 }
 
 .hmenu ul li{
@@ -37,7 +39,7 @@
 }
 
 .hmenu ul li a {
-    color: #024d4b;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -88,6 +90,70 @@
 .conteudo_principal, .rodape_principal{
     width: 940px;
     font-family: Arial, Helvetica, sans-serif;
+    /*background-color:rgb(107, 98, 108);*/
     
 }
 
+
+.sobre_rio_antigo {
+    margin: 20px 0 30px 0;
+    padding: 10px 0;
+    box-sizing: content-box;
+    
+}
+.sobre_rio_antigo h3 {
+    padding: 10px 0;
+    font-family: monospace;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+
+.sobre_rio_antigo p {
+    font-family: monospace;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.conteudo_rio_antigo_cabecalho th {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Arima', cursive;
+    font-size: 28px;
+}
+
+.conteudo_rio_antigo {
+    border: 1px solid blue;
+    border-radius: 2%;
+    width: 95%;
+}
+ 
+.conteudo_rio_antigo:hover {
+    border: 4px solid violet;
+}
+
+.conteudo_rio_antigo h3, .conteudo_rio_antigo p {
+    font-family: 'Dosis', sans-serif;
+}
+
+.conteudo_rio_antigo h3 {
+    color: brown;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.conteudo_rio_antigo p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.conteudo_rio_antigo_img {
+    align-content: center;
+    margin: 8px 0;
+    text-align: center;
+}
+
+.conteudo_rio_antigo_img img {
+    width: 270px;
+
+}
