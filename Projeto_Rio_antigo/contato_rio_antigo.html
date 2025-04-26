@@ -3,47 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Histórias do Rio Antigo</title>
-    <link rel="stylesheet" href="css/rio_antigo_style.css">
-    <link rel="shortcut icon" href="img/python_16.png">
-    <!--Fonte utilizada nesta página: Dosis-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <title>Historia do Rio Antigo</title>
+    <link href="css/Meu_Estilo.css" rel="stylesheet">
+    <link href="css/contatos_rio_antigo.css" rel="stylesheet">
+    <link href="css/menu_logo.css" rel="stylesheet">
+    <link href="css/contato.css" rel="stylesheet">
+
+
 </head>
+
 <body>
     <header class="cabecalho">
-        <div>
-            <h1 class="logo">
+        <div class="caixa">
+            <h1 class=".hmenu">
                 <img src="img/rioicon_125x125.png" alt="Logo do site">
             </h1>
             <nav class="hmenu">
                 <ul>
-                    <li><a href="rio_antigo.html">Home</a></li>
-                    <li><a href="fotos_rio_antigo.html">Fotos</a></li>
-                    <li><a href="contato_rio_antigo.html">Contato</a></li>
-                    <li><a href="sobre_rio_antigo.html">Sobre</a></li>
+                    <li><a href="index.html" > Home </a></li>
+                    <li><a href="fotos.html" > Fotos </a></li>
+                    <li><a href="contatos.html" > Contatos </a></li>
+                    <li><a href="sobre.html" > Sobre </a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="conteudo_principal">
-        <div>
-            <form name="frm_contato"  id="id_contato" action="#" method="post">
-                <div>
-                    <label for="idNome">Nome</label>
+        <div class="titulo_principal">
+            <h2> Converse Conosco</h2>
+        </div>
+        <div class="divform">
+
+            <form name="frm_contato" id="id_contato" action="#" method="post">
+              <fieldset>
+              <div class="label">
+                <label for="idNome">Nome</label>
+              </div>
+              <input id="idNome" type="text" name="nome" maxlength="70" placeholder="Digite seu nome" required>
+
+              <div  class="label">
+                <label for="idEmail"><E-mail></E-mail></label>
+              </div>
+              <input id="idEmail" type="email" name="email" maxlength="100" placeholder="Digite seu E-mail" required>
+
+              <div  class="label">
+                <label for="idTelefone">Teleofne</label>
+              </div>
+              <input id="idTelefone" type="tel" name="Teleofne" placeholder="Digite seu nome" required>
+              <div  class="label">
+                <label> Genero</label>
+              </div>
+              <input type="radio" name="genero" value="F" id="idGeneroF"><label for="idGeneroF" class="label-radio">Feminino</label>
+              <input type="radio" name="genero" value="F" id="idGeneroM"><label for="idGeneroM" class="label-radio">Masculino</label>
+              <input type="radio" name="genero" value="F" id="idGeneroO"><label for="idGeneroO" class="label-radio">Outros</label>
+
+
+              <div  class="label">
+                <label id="idAssunto">Assunto</label>
+              </div>
+              <select nome="assunto" id="idAssunto">
+            
+                <option value="0">Selecione...</option>
+                <option value="E">Elogio</option>
+                <option value="C">Critica</option>
+                <option value="S">Solicitacao</option>
+                <option value="O">Outros</option>
+             </select>
+                <div  class="label">
+                    <label id="idMensagem">Assunto</label>
                 </div>
-                <input type="text" maxlength="70" placeholder="Digite seu nome" required>
-                <div>
-                    <label for="idNome">Nome</label>
+                <textarea rows="10" cols="200" id="Mensagem" name="mensagem" placeholder="Preencha com a mensagem desejada" class="minhatextarea"></textarea>
+
+                <div  class="label">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
                 </div>
-                <input type="text" maxlength="70" placeholder="Digite seu nome" required>
-                
+                </fieldset>
+            
+
+
             </form>
         </div>
-    </main>
-    <footer>
 
-    </footer>
+        
+    
+</main>
+<footer class="rodape-principal">
+    <p> Senac</p>
+    <p>fontes: Guilherme Soares Vieira</p>
+    <p> E-mail: guilherme123@email.com </p>
+    <p> Contato: (21) 95645-6765</p>
+</footer>
 </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

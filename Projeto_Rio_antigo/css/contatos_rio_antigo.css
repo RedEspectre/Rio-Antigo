@@ -1,0 +1,61 @@
+.divform {
+    border: 1px solid blue;
+    background-color: aliceblue;
+}
+
+.divform fieldset {
+    border: none;
+}
+
+.label{
+    font-size: 20px;
+    padding: 8px 0 6px 0;
+}
+
+.divform input[type=text],
+.divform input[type=email],
+.divform input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+
+}
+
+.radio {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.label_radio {
+    display: inline;
+    padding-left: 6px;
+    color: grey;
+    font-size: 18px;
+}
+
+.divform select{ 
+    width: 100%;
+
+}
+
+.minha_text_area {
+    width: 100%;
+    padding: 10px;
+    background-color: azure;
+    padding: 10px;
+    resize: none;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.botoes input[type=rest],
+.botoes input[type=submit] {
+    
+}

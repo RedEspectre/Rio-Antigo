@@ -1,0 +1,31 @@
+.sobre {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.youtube_sobre_nos {
+    padding: 10px;
+}
+
+.video_sobre_nos {
+    padding: 10px;
+    width: 800px;
+}
+
+.video_sobre_nos video {
+    width: 100%;
+}
+
+.mapa_sobre_nos {
+    padding: 10px;
+}
+
+.mapa_sobre_nos iframe {
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.audio_sobre_nos audio {
+    border: 1px solid grey;
+    border-radius: 4px;
+}
