@@ -57,5 +57,5 @@
 
 .botoes input[type=rest],
 .botoes input[type=submit] {
-    
+    margin: auto;
 }
